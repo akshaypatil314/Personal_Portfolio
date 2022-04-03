@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,500;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat',
+    sans-serif; */
+    font-family: 'Roboto',
+        sans-serif;
+    box-sizing: border-box;
+
+}
+
+#hero {
+    background-color: #1f2235;
+    color: white;
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 60px 60px 60px;
+    column-gap: 50px;
+    row-gap: 10px;
+}
+
+.col-1 {
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px rgb(83, 82, 82);
+}
+
+.col-2 {
+    margin-bottom: 150px;
+    font-size: 30px;
+    width: 20%;
+    margin: auto;
+}
+
+.col-2 li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+.col-2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.col-2 ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.col-2 ul a:hover {
+    color: #F900BF;
+}
+
+.logo {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.logo img {
+    height: 30px;
+    width: 50px;
+}
+
+#hero img {
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 152px;
+    border: 4px solid #c56cf0;
+}
+
+.hero-text {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 300px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    color: #c56cf0;
+    margin: 20px 0px;
+    font-size: 50px;
+}
+
+.button {
+    margin: 30px 0px;
+    background-color: #F900BF;
+    font-size: 30px;
+    color: black;
+    width: 200px;
+    padding: 7px;
+    height: 50px;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    color: black;
+}
+
+
+.nav-wrapper {
+    background-color: #1f2235;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav-wrapper ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-wrapper ul a:hover {
+    color: #F900BF;
+}
+
+.nav-wrapper li {
+    list-style: none;
+}
+
+.about-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.first-heading {
+    font-size: 20px;
+}
+
+.first {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.second {
+    font-size: 40px;
+    margin: 20px 0px;
+    color: #F900BF;
+}
+
+#about-me {
+    height: 550px;
+    padding: 60px 50px 50px 50px;
+}
+
+.about-wrapper {
+    margin: auto;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px
+}
+
+.about-me-desc {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.desc-1 {
+    color: #be0793;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.desc-2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.right {
+    width: 40%;
+}
+
+.right>h1 {
+    margin-bottom: 20px;
+}
+
+.right .line {
+    margin-bottom: 15px;
+}
+
+.right .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right .info span {
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.right .bars {
+    background-color: grey;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.right .bars::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #F900BF;
+}
+
+.right .html::before {
+    width: 100%;
+}
+
+.right .css::before {
+    width: 80%;
+}
+
+.right .javascript::before {
+    width: 80%;
+}
+
+.right .bootstrap::before {
+    width: 90%;
+}
+
+.right .nodejs::before {
+    width: 60%;
+}
+
+.right .sass::before {
+    width: 90%;
+}
+
+/* .text {
+    font-size: 21px;
+    display: column;
+    text-align: justify;
+    padding: 20px;
+} */
+
+.title-about {
+    font-size: 30px;
+}
+
+.about-me-desc {
+    width: 50%;
+}
+
+/* .about-me>p {
+    font-size: 25px;
+    margin-top: 200px;
+} */
+.project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    row-gap: 20x;
+    column-gap: 20px;
+}
+
+#projects {
+    height: 550px;
+    width: 100%;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 100px 100px 100px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+/* .projects-container-2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 20px;
+} */
+
+#projects>h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: Black;
+}
+
+.project-card img {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 152px;
+}
+
+.project-card {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(44, 44, 44);
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.subtext-2:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subtext {
+    padding: 10px;
+}
+
+.subtext-2 {
+    background-color: #F900BF;
+    color: white;
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 3px;
+    transition: all 0.3 ease-in-out;
+}
+
+.subtext-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#Resume {
+    height: 400px;
+    margin: 0px 50px 50px 200px;
+    width: 1200px;
+    box-shadow: 5px 5px 20px rgb(61, 61, 61);
+}
+
+.resume-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+}
+
+#Resume>h1 {
+    text-align: center;
+    margin: auto;
+}
+
+#Resume h1 {
+    color: black;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#Resume a {
+    margin-top: 30px;
+    width: 200px;
+    padding: 20px;
+    background-color: #F900BF;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#Resume a:hover {
+    background-color: #F900BF;
+    color: black;
+}
+
+#Resume img {
+    height: 300px;
+    width: 300px;
+}
+
+.right-resume {
+    margin: 80px 0px 40px 0px;
+}
+
+
+#contact-me {
+    background-color: #1f2235;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.contact-us {
+    width: 40%;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 0px 220px;
+
+}
+
+.break i {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.break {
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.justify-text {
+    text-align: left;
+    padding: 15px;
+}
+
+
+#contact-me>h1 {
+    font-size: 30px;
+    color: #F900BF;
+    margin-top: 30px;
+}
+
+#contact-me h3 {
+    font-size: 20px;
+    color: #c56cf0;
+}
+
+.contact-form {
+
+    width: 60%;
+    align-items: center;
+    margin-right: 300px;
+    padding: 20px 20px 0px 200px;
+
+}
+
+.contact-form input {
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    font-weight: 300;
+    border: none;
+    border-radius: 30px;
+    column-gap: 10px;
+    background-color: #272a3d;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    transition: all 0.3 ease;
+}
+
+.contact-form textarea {
+    font-size: 20px;
+    width: 500px;
+    height: 150px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #272a3d;
+    transition: all 0.8 ease-in-out;
+}
+
+.contact-form input:hover,
+textarea:hover {
+    box-shadow: 5px 5px 20px rgb(61, 61, 61);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-form button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #F900BF;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    border-color: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    color: black;
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .nav-wrapper {
+        flex-direction: column;
+    }
+
+    .nav-wrapper ul {
+        width: 100%;
+        margin: auto;
+        padding: 2px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-wrapper li {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .col-1 {
+        box-shadow: none;
+        flex-direction: column;
+        height: 530px;
+    }
+
+    #hero {
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        height: 700px;
+    }
+
+    .logo {
+        padding: 8px;
+    }
+
+    #hero img {
+        margin: 10px auto;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+    }
+
+    .hero-text {
+        margin: 0px;
+    }
+
+    .col-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-2 ul {
+        flex-direction: row;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-heading {
+        margin-top: 20px;
+    }
+
+    .about-wrapper {
+        padding: 20px;
+    }
+
+    .contact-wrapper {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    .contact-us {
+        padding: 50px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin: 11px auto;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #about-me {
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .about-me-desc {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .about-wrapper {
+        row-gap: 30px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    #Resume {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    .resume-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .nav-wrapper {
+        flex-direction: column;
+    }
+
+    .nav-wrapper ul {
+        width: 100%;
+        margin: auto;
+        padding: 2px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .button {
+        width: auto;
+    }
+
+    .nav-wrapper li {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #hero {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero-text {
+        margin: 0px;
+    }
+
+    #hero img {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto auto auto;
+    }
+
+    #about-me {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+
+    .about-me-desc {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about-wrapper {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .right {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    #projects {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+        row-gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-wrapper {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #Resume {
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        padding: 0px;
+    }
+
+    .resume-wrapper {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    #Resume>h1 {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .contact-us {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .right-resume {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .nav-wrapper {
+        flex-direction: column;
+    }
+
+    .nav-wrapper ul {
+        width: 100%;
+        margin: auto;
+        padding: 2px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .button {
+        width: auto;
+    }
+
+    .nav-wrapper li {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #hero {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero-text {
+        margin: 0px;
+    }
+
+    #hero img {
+        margin: 20px auto auto auto;
+    }
+
+    #about-me {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+
+    .about-me-desc {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about-wrapper {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .right {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    #projects {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+        row-gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-wrapper {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #Resume {
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        padding: 0px;
+    }
+
+    .resume-wrapper {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+        padding: 30px;
+    }
+
+    #Resume>h1 {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .contact-us {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .right-resume {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+
+    .button {
+        width: auto;
+    }
+
+    .nav-wrapper li {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .button {
+        margin: 30px 0px;
+        background-color: #F900BF;
+        font-size: 30px;
+        color: black;
+        width: 200px;
+        padding: 7px;
+        height: 50px;
+        border-radius: 60px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #hero {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-text {
+        margin: 0px;
+    }
+
+    #hero img {
+        margin: 20px auto auto auto;
+    }
+
+    #about-me {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+
+    .about-me-desc {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .right {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    #projects {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-wrapper {
+        width: 100%;
+        height: auto;
+
+    }
+
+    #Resume {
+        width: 100%;
+        margin: 0px;
+        height: auto;
+        padding: 0px;
+    }
+
+
+
+    #Resume>h1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+}
